@@ -1,6 +1,7 @@
 package com.valcom.opcua.server.server;
 
 import org.eclipse.milo.opcua.sdk.core.Reference;
+import org.eclipse.milo.opcua.sdk.core.ValueRanks;
 import org.eclipse.milo.opcua.sdk.server.OpcUaServer;
 import org.eclipse.milo.opcua.sdk.server.api.AccessContext;
 import org.eclipse.milo.opcua.sdk.server.api.DataItem;
@@ -16,6 +17,7 @@ import org.eclipse.milo.opcua.stack.core.Identifiers;
 import org.eclipse.milo.opcua.stack.core.StatusCodes;
 import org.eclipse.milo.opcua.stack.core.UaException;
 import org.eclipse.milo.opcua.stack.core.types.builtin.*;
+import org.eclipse.milo.opcua.stack.core.types.builtin.unsigned.UInteger;
 import org.eclipse.milo.opcua.stack.core.types.builtin.unsigned.UShort;
 import org.eclipse.milo.opcua.stack.core.types.enumerated.TimestampsToReturn;
 import org.eclipse.milo.opcua.stack.core.types.structured.ReadValueId;
@@ -82,12 +84,8 @@ public class Namespace implements org.eclipse.milo.opcua.sdk.server.api.Namespac
                     if (serverNode.isPresent()) {
                         AttributeContext attributeContext = new AttributeContext(context);
                         LOGGER.info("Current Value : {}", serverNode.get().getAttribute(attributeContext, AttributeId.from(value.getAttributeId()).get()));
-                        LOGGER.info("Value from client Attribute : {}", value.getValue());
+                        LOGGER.info("Value from client : {}", value.getValue());
 
-                        if(!((UaVariableNode) serverNode.get()).getDataType().getIdentifier().equals(value.getValue().getValue().getDataType().get().getIdentifier())) {
-                            LOGGER.error("Wrong data type!");
-                            return new StatusCode(StatusCodes.Bad_NotWritable);
-                        }
                         try {
                             serverNode.get().setAttribute(attributeContext, AttributeId.from(value.getAttributeId()).get(), value.getValue());
                         } catch (UaException e) {
@@ -128,7 +126,7 @@ public class Namespace implements org.eclipse.milo.opcua.sdk.server.api.Namespac
     public CompletableFuture<List<Reference>> browse(AccessContext context, NodeId nodeId) {
         final Optional<ServerNode> serverNode = serverNodeMap.getNode(nodeId);
 
-        if(serverNode.isPresent()) {
+        if (serverNode.isPresent()) {
             return CompletableFuture.completedFuture(serverNode.get().getReferences());
         } else {
             final CompletableFuture<List<Reference>> f = new CompletableFuture<>();
@@ -139,9 +137,14 @@ public class Namespace implements org.eclipse.milo.opcua.sdk.server.api.Namespac
 
     @Deprecated
     private void addTestNodes() {
-        UaVariableNode uaVariableNode = new UaVariableNode(this.serverNodeMap, new NodeId(this.getNamespaceIndex(), "variable"), new QualifiedName(this.getNamespaceIndex(), "variable1"), LocalizedText.english("variable2"));
-        uaVariableNode.setDataType(Identifiers.Double);
-        uaVariableNode.setValue(new DataValue(new Variant(2.0d)));
+        UaVariableNode uaVariableNode = UaVariableNode.builder(this.serverNodeMap)
+                .setNodeId(new NodeId(this.getNamespaceIndex(), "id"))
+                .setDataType(Identifiers.Int32)
+                .setValueRank(ValueRanks.OneDimension)
+                .setArrayDimensions(new UInteger[]{UInteger.valueOf(2)})
+                .setBrowseName(new QualifiedName(this.getNamespaceIndex(), "id"))
+                .setDisplayName(LocalizedText.english("my-custom-variable"))
+                .build();
 
         serverNodeMap.getNode(Identifiers.ObjectsFolder).ifPresent(folder -> ((FolderNode) folder).addComponent(uaVariableNode));
     }

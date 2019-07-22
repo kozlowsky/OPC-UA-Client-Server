@@ -19,13 +19,9 @@ import java.util.List;
 @Component
 public class Server {
 
-    public static OpcUaServer server;
+    private static OpcUaServer server;
 
-    private Server() {
-        if (server != null) {
-            throw new IllegalStateException("Server already exists!");
-        }
-    }
+    private Server() {}
 
     public static void startup() {
         if(server == null) {

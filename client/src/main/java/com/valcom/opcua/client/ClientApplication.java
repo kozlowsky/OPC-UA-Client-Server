@@ -1,6 +1,6 @@
 package com.valcom.opcua.client;
 
-import org.eclipse.milo.opcua.stack.core.Identifiers;
+import org.eclipse.milo.opcua.stack.core.types.builtin.DataValue;
 import org.eclipse.milo.opcua.stack.core.types.builtin.NodeId;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -26,18 +26,36 @@ public class ClientApplication implements CommandLineRunner {
     @Override
     public void run(String... args) {
         final String endpoint = String.format("opc.tcp://%s:%s", "localhost", 4845);
-        NodeId searchedNodeId = new NodeId(2, "variable");
+        NodeId searchedNodeId = new NodeId(2, "id");
 
         try {
             client.connect(endpoint);
             LOGGER.info("Successfully connected to the server {}", endpoint);
-
-            client.browse(searchedNodeId, "");
-            LOGGER.info("NodeId has been found {}", searchedNodeId.toString());
         } catch (ExecutionException | InterruptedException e) {
             LOGGER.error("Could not connect to the server {}", endpoint, e);
-        } catch (UnknownNodeIdException e) {
-            LOGGER.warn("NodeId has not been found {}", searchedNodeId.toString(), e);
+        }
+
+        try {
+            DataValue[] values = client.read(searchedNodeId);
+            LOGGER.info("Successfully read values of a node {} \n {}", searchedNodeId, values[0]);
+        } catch (InterruptedException | ExecutionException e) {
+            LOGGER.error("Could not read value of a node {}", searchedNodeId);
+        }
+
+        try {
+            client.write(searchedNodeId, new int[]
+                    {
+                            1,2,3,4,5,6,7,8,9,10
+                    });
+            LOGGER.info("StatusCode ");
+        } catch (InterruptedException | ExecutionException e) {
+            LOGGER.error("Could not write new value to the node {}", searchedNodeId);
+        }
+
+        try {
+            client.read(searchedNodeId);
+        } catch (InterruptedException | ExecutionException e) {
+            LOGGER.error("Could not read updated value of a node {}", searchedNodeId);
         }
     }
 }
