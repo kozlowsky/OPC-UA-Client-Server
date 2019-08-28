@@ -39,7 +39,7 @@ public class Client {
     }
 
     public void write(NodeId nodeId, Object object) throws ExecutionException, InterruptedException {
-        StatusCode statusCode = uaClient.writeValue(nodeId, new DataValue(new Variant(object))).get();
+        StatusCode statusCode = uaClient.writeValue(nodeId, new DataValue(new Variant(object), StatusCode.GOOD)).get();
         System.out.println(statusCode);
     }
 }

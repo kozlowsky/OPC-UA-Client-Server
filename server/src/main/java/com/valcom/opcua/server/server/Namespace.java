@@ -137,12 +137,13 @@ public class Namespace implements org.eclipse.milo.opcua.sdk.server.api.Namespac
 
     @Deprecated
     private void addTestNodes() {
+        String text = "identifier";
         UaVariableNode uaVariableNode = UaVariableNode.builder(this.serverNodeMap)
-                .setNodeId(new NodeId(this.getNamespaceIndex(), "id"))
-                .setDataType(Identifiers.Int32)
+                .setNodeId(new NodeId(this.getNamespaceIndex(), text))
+                .setDataType(Identifiers.Float)
                 .setValueRank(ValueRanks.OneDimension)
                 .setArrayDimensions(new UInteger[]{UInteger.valueOf(2)})
-                .setBrowseName(new QualifiedName(this.getNamespaceIndex(), "id"))
+                .setBrowseName(new QualifiedName(this.getNamespaceIndex(), "123"))
                 .setDisplayName(LocalizedText.english("my-custom-variable"))
                 .build();
 

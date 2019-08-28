@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1ec4cba-a727-4ce3-9a62-8da7576eb5f0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/main/java/com/valcom/opcua/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/valcom/opcua/client/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/main/java/com/valcom/opcua/client/ClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/valcom/opcua/client/ClientApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/valcom/opcua/client/UnknownNodeIdException.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/main/java/com/valcom/opcua/server/server/Namespace.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/valcom/opcua/server/server/Namespace.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/valcom/opcua/server/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/valcom/opcua/server/server/Server.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/server/.gradle/" />
@@ -48,8 +46,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/src/main/java/com/valcom/opcua/server/server/Namespace.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1383">
-              <caret line="139" selection-start-line="139" selection-end-line="146" selection-end-column="25" />
+            <state relative-caret-position="241">
+              <caret line="129" column="69" selection-start-line="129" selection-start-column="69" selection-end-line="129" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,15 +56,26 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/stack-core/0.2.4/69a782baead2a808675ab28089847647675f723f/stack-core-0.2.4-sources.jar!/org/eclipse/milo/opcua/stack/core/types/builtin/NodeId.java">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/sdk-server/0.2.4/b0efa0cd19b43fa2842960199a988b063b889e31/sdk-server-0.2.4.jar!/org/eclipse/milo/opcua/sdk/server/nodes/UaVariableNode.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="89" column="11" selection-start-line="89" selection-start-column="11" selection-end-line="89" selection-end-column="11" />
+            <state relative-caret-position="120">
+              <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/stack-core/0.2.4/4648c4db15d2e2e1a224067de7c138f36b0a510c/stack-core-0.2.4.jar!/org/eclipse/milo/opcua/stack/core/types/builtin/DataValue.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
               <folding>
-                <element signature="e#2794#2795#0" expanded="true" />
-                <element signature="e#2850#2851#0" expanded="true" />
-                <element signature="e#5879#5880#0" expanded="true" />
-                <element signature="e#5912#5913#0" expanded="true" />
+                <element signature="e#988#989#0" expanded="true" />
+                <element signature="e#1032#1033#0" expanded="true" />
+                <element signature="e#1090#1091#0" expanded="true" />
+                <element signature="e#1141#1142#0" expanded="true" />
+                <element signature="e#1224#1225#0" expanded="true" />
+                <element signature="e#1271#1272#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -75,8 +84,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/main/java/com/valcom/opcua/client/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+            <state relative-caret-position="615">
+              <caret line="41" column="110" selection-start-line="41" selection-start-column="110" selection-end-line="41" selection-end-column="110" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,19 +94,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/stack-core/0.2.4/69a782baead2a808675ab28089847647675f723f/stack-core-0.2.4-sources.jar!/org/eclipse/milo/opcua/stack/core/types/structured/ReadValueId.java">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/stack-core/0.2.4/4648c4db15d2e2e1a224067de7c138f36b0a510c/stack-core-0.2.4.jar!/org/eclipse/milo/opcua/stack/core/types/builtin/Variant.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+            <state relative-caret-position="150">
+              <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/sdk-client/0.2.4/fede836bc9cc89854c169139b6807cf9767a9e4f/sdk-client-0.2.4-sources.jar!/org/eclipse/milo/opcua/sdk/client/api/services/AttributeServices.java">
+        <entry file="file://$PROJECT_DIR$/server/src/main/resources/static/text.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="55" column="36" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
+            <state>
+              <caret column="70000" selection-start-column="70000" selection-end-column="70000" />
             </state>
           </provider>
         </entry>
@@ -105,23 +114,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/src/main/java/com/valcom/opcua/server/server/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+            <state relative-caret-position="135">
+              <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/sdk-server/0.2.4/ffa216ffaea92beb077f85b4c66b8dd3a316c11d/sdk-server-0.2.4-sources.jar!/org/eclipse/milo/opcua/sdk/server/nodes/UaVariableNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="84" column="52" selection-start-line="84" selection-start-column="52" selection-end-line="84" selection-end-column="52" />
-              <folding>
-                <element signature="e#6155#6156#0" expanded="true" />
-                <element signature="e#6186#6187#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -130,8 +126,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/main/java/com/valcom/opcua/client/ClientApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-267">
-              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+            <state relative-caret-position="548">
+              <caret line="47" column="41" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/lang/Float.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -139,20 +147,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/src/main/java/com/valcom/opcua/server/ServerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/stack-core/0.2.4/69a782baead2a808675ab28089847647675f723f/stack-core-0.2.4-sources.jar!/org/eclipse/milo/opcua/stack/core/types/builtin/DateTime.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+            <state relative-caret-position="105">
+              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
               <folding>
-                <element signature="e#940#941#0" expanded="true" />
-                <element signature="e#999#1000#0" expanded="true" />
+                <element signature="e#381#382#0" expanded="true" />
+                <element signature="e#449#450#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -187,6 +186,7 @@
       <find>browseName</find>
       <find>Integer</find>
       <find>DateTime</find>
+      <find>4845</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -204,18 +204,19 @@
         <option value="$PROJECT_DIR$/client/build.gradle" />
         <option value="$PROJECT_DIR$/server/src/main/java/com/valcom/opcua/server/ServerApplication.java" />
         <option value="$PROJECT_DIR$/client/src/main/java/com/valcom/opcua/client/UnknownNodeIdException.java" />
-        <option value="$PROJECT_DIR$/server/src/main/java/com/valcom/opcua/server/server/Namespace.java" />
-        <option value="$PROJECT_DIR$/client/src/main/java/com/valcom/opcua/client/Client.java" />
         <option value="$PROJECT_DIR$/server/src/main/java/com/valcom/opcua/server/server/Server.java" />
         <option value="$PROJECT_DIR$/client/src/main/java/com/valcom/opcua/client/ClientApplication.java" />
+        <option value="$PROJECT_DIR$/server/src/main/resources/static/text.txt" />
+        <option value="$PROJECT_DIR$/client/src/main/java/com/valcom/opcua/client/Client.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/com/valcom/opcua/server/server/Namespace.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="70" />
-    <option name="y" value="490" />
-    <option name="width" value="1657" />
-    <option name="height" value="941" />
+    <option name="x" value="1920" />
+    <option name="y" value="-2" />
+    <option name="width" value="1920" />
+    <option name="height" value="1082" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -223,51 +224,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="opcua" type="58d84e3e:PackageViewProjectNode" />
-              <item name="client" type="eaaa3913:PackageViewModuleGroupNode" />
-            </path>
-            <path>
-              <item name="opcua" type="58d84e3e:PackageViewProjectNode" />
-              <item name="client" type="eaaa3913:PackageViewModuleGroupNode" />
-              <item name="client.main" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="opcua" type="58d84e3e:PackageViewProjectNode" />
-              <item name="client" type="eaaa3913:PackageViewModuleGroupNode" />
-              <item name="client.main" type="616d4139:PackageViewModuleNode" />
-              <item name="com.valcom.opcua.client" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="opcua" type="58d84e3e:PackageViewProjectNode" />
-              <item name="server" type="eaaa3913:PackageViewModuleGroupNode" />
-            </path>
-            <path>
-              <item name="opcua" type="58d84e3e:PackageViewProjectNode" />
-              <item name="server" type="eaaa3913:PackageViewModuleGroupNode" />
-              <item name="server.main" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="opcua" type="58d84e3e:PackageViewProjectNode" />
-              <item name="server" type="eaaa3913:PackageViewModuleGroupNode" />
-              <item name="server.main" type="616d4139:PackageViewModuleNode" />
-              <item name="com.valcom.opcua.server" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="opcua" type="58d84e3e:PackageViewProjectNode" />
-              <item name="server" type="eaaa3913:PackageViewModuleGroupNode" />
-              <item name="server.main" type="616d4139:PackageViewModuleNode" />
-              <item name="com.valcom.opcua.server" type="1f31426a:PackageElementNode" />
-              <item name="server" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -381,6 +337,57 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="opcua" type="58d84e3e:PackageViewProjectNode" />
+              <item name="client" type="eaaa3913:PackageViewModuleGroupNode" />
+            </path>
+            <path>
+              <item name="opcua" type="58d84e3e:PackageViewProjectNode" />
+              <item name="client" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="client.main" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="opcua" type="58d84e3e:PackageViewProjectNode" />
+              <item name="client" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="client.main" type="616d4139:PackageViewModuleNode" />
+              <item name="com.valcom.opcua.client" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="opcua" type="58d84e3e:PackageViewProjectNode" />
+              <item name="server" type="eaaa3913:PackageViewModuleGroupNode" />
+            </path>
+            <path>
+              <item name="opcua" type="58d84e3e:PackageViewProjectNode" />
+              <item name="server" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="server.main" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="opcua" type="58d84e3e:PackageViewProjectNode" />
+              <item name="server" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="server.main" type="616d4139:PackageViewModuleNode" />
+              <item name="com.valcom.opcua.server" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="opcua" type="58d84e3e:PackageViewProjectNode" />
+              <item name="server" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="server.main" type="616d4139:PackageViewModuleNode" />
+              <item name="com.valcom.opcua.server" type="1f31426a:PackageElementNode" />
+              <item name="server" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="opcua" type="58d84e3e:PackageViewProjectNode" />
+              <item name="server" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="server.main" type="616d4139:PackageViewModuleNode" />
+              <item name="static" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -398,6 +405,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -411,7 +419,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ClientApplication">
+  <component name="RunManager" selected="Spring Boot.ServerApplication">
     <configuration name="ClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="client.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.valcom.opcua.client.ClientApplication" />
@@ -441,18 +449,23 @@
       <workItem from="1563361947551" duration="39820000" />
       <workItem from="1563721281790" duration="587000" />
       <workItem from="1563724853179" duration="464000" />
-      <workItem from="1563777561384" duration="3626000" />
+      <workItem from="1563777561384" duration="4863000" />
+      <workItem from="1564744252163" duration="25000" />
+      <workItem from="1565343473257" duration="676000" />
+      <workItem from="1565593570774" duration="1809000" />
+      <workItem from="1565784581661" duration="1526000" />
+      <workItem from="1566979410458" duration="2307000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44644000" />
+    <option name="totallyTimeSpent" value="52224000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <frame x="1987" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2883232" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29883784" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -462,20 +475,20 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.19978401" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.44924405" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4438445" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.3297414" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.33045357" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4997233" weight="0.3401728" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5002767" side_tool="true" weight="0.3401728" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="bottom" id="Messages" order="15" weight="0.17062636" />
+      <window_info active="true" anchor="bottom" id="Messages" order="15" visible="true" weight="0.29589632" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -583,125 +596,16 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/util/Optional.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/stack-core/0.2.4/69a782baead2a808675ab28089847647675f723f/stack-core-0.2.4-sources.jar!/org/eclipse/milo/opcua/stack/core/StatusCodes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="1302" column="29" selection-start-line="1302" selection-start-column="29" selection-end-line="1302" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/sdk-server/0.2.4/ffa216ffaea92beb077f85b4c66b8dd3a316c11d/sdk-server-0.2.4-sources.jar!/org/eclipse/milo/opcua/sdk/server/nodes/AttributeContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/stack-core/0.2.4/69a782baead2a808675ab28089847647675f723f/stack-core-0.2.4-sources.jar!/org/eclipse/milo/opcua/stack/core/types/enumerated/NodeClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/sdk-core/0.2.4/fce5fdc59af3ea48ef18fb299ac598a248dee97d/sdk-core-0.2.4.jar!/org/eclipse/milo/opcua/sdk/core/WriteMask.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#1631#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/stack-core/0.2.4/69a782baead2a808675ab28089847647675f723f/stack-core-0.2.4-sources.jar!/org/eclipse/milo/opcua/stack/core/types/structured/ObjectTypeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/sdk-server/0.2.4/ffa216ffaea92beb077f85b4c66b8dd3a316c11d/sdk-server-0.2.4-sources.jar!/org/eclipse/milo/opcua/sdk/server/api/nodes/ObjectTypeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/sdk-server/0.2.4/ffa216ffaea92beb077f85b4c66b8dd3a316c11d/sdk-server-0.2.4-sources.jar!/org/eclipse/milo/opcua/sdk/server/VariableTypeManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/sdk-server/0.2.4/ffa216ffaea92beb077f85b4c66b8dd3a316c11d/sdk-server-0.2.4-sources.jar!/org/eclipse/milo/opcua/sdk/server/api/nodes/VariableTypeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/sdk-server/0.2.4/ffa216ffaea92beb077f85b4c66b8dd3a316c11d/sdk-server-0.2.4-sources.jar!/org/eclipse/milo/opcua/sdk/server/nodes/UaVariableTypeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="30" column="58" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/sdk-server/0.2.4/ffa216ffaea92beb077f85b4c66b8dd3a316c11d/sdk-server-0.2.4-sources.jar!/org/eclipse/milo/opcua/sdk/server/nodes/NodeFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/sdk-server/0.2.4/ffa216ffaea92beb077f85b4c66b8dd3a316c11d/sdk-server-0.2.4-sources.jar!/org/eclipse/milo/opcua/sdk/server/nodes/UaObjectNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="79" column="11" selection-start-line="79" selection-start-column="11" selection-end-line="79" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/stack-core/0.2.4/69a782baead2a808675ab28089847647675f723f/stack-core-0.2.4-sources.jar!/org/eclipse/milo/opcua/stack/core/AttributeId.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
-          <folding>
-            <element signature="e#3590#3591#0" expanded="true" />
-            <element signature="e#3641#3642#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/sdk-server/0.2.4/ffa216ffaea92beb077f85b4c66b8dd3a316c11d/sdk-server-0.2.4-sources.jar!/org/eclipse/milo/opcua/sdk/server/api/nodes/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/sdk-server/0.2.4/ffa216ffaea92beb077f85b4c66b8dd3a316c11d/sdk-server-0.2.4-sources.jar!/org/eclipse/milo/opcua/sdk/server/nodes/ServerNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/stack-core/0.2.4/69a782baead2a808675ab28089847647675f723f/stack-core-0.2.4-sources.jar!/org/eclipse/milo/opcua/stack/core/types/structured/WriteValue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="90" column="61" selection-start-line="90" selection-start-column="61" selection-end-line="90" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/sdk-server/0.2.4/ffa216ffaea92beb077f85b4c66b8dd3a316c11d/sdk-server-0.2.4-sources.jar!/org/eclipse/milo/opcua/sdk/server/api/nodes/ObjectTypeNode.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/sdk-server/0.2.4/ffa216ffaea92beb077f85b4c66b8dd3a316c11d/sdk-server-0.2.4-sources.jar!/org/eclipse/milo/opcua/sdk/server/VariableTypeManager.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/sdk-server/0.2.4/ffa216ffaea92beb077f85b4c66b8dd3a316c11d/sdk-server-0.2.4-sources.jar!/org/eclipse/milo/opcua/sdk/server/api/nodes/VariableTypeNode.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/sdk-server/0.2.4/ffa216ffaea92beb077f85b4c66b8dd3a316c11d/sdk-server-0.2.4-sources.jar!/org/eclipse/milo/opcua/sdk/server/nodes/UaVariableTypeNode.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/sdk-server/0.2.4/ffa216ffaea92beb077f85b4c66b8dd3a316c11d/sdk-server-0.2.4-sources.jar!/org/eclipse/milo/opcua/sdk/server/nodes/NodeFactory.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/sdk-server/0.2.4/ffa216ffaea92beb077f85b4c66b8dd3a316c11d/sdk-server-0.2.4-sources.jar!/org/eclipse/milo/opcua/sdk/server/nodes/UaObjectNode.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/stack-core/0.2.4/69a782baead2a808675ab28089847647675f723f/stack-core-0.2.4-sources.jar!/org/eclipse/milo/opcua/stack/core/AttributeId.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/sdk-server/0.2.4/ffa216ffaea92beb077f85b4c66b8dd3a316c11d/sdk-server-0.2.4-sources.jar!/org/eclipse/milo/opcua/sdk/server/api/nodes/Node.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/sdk-server/0.2.4/ffa216ffaea92beb077f85b4c66b8dd3a316c11d/sdk-server-0.2.4-sources.jar!/org/eclipse/milo/opcua/sdk/server/nodes/ServerNode.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/stack-core/0.2.4/69a782baead2a808675ab28089847647675f723f/stack-core-0.2.4-sources.jar!/org/eclipse/milo/opcua/stack/core/types/structured/WriteValue.java" />
     <entry file="file://$PROJECT_DIR$/temporary.txt" />
     <entry file="file://$PROJECT_DIR$/temporary2.txt" />
     <entry file="file://$PROJECT_DIR$/temporary3.txt" />
@@ -719,38 +623,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/sdk-server/0.2.4/ffa216ffaea92beb077f85b4c66b8dd3a316c11d/sdk-server-0.2.4-sources.jar!/org/eclipse/milo/opcua/sdk/server/namespaces/VendorNamespace.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="273" column="51" selection-start-line="273" selection-start-column="51" selection-end-line="273" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/sdk-server/0.2.4/ffa216ffaea92beb077f85b4c66b8dd3a316c11d/sdk-server-0.2.4-sources.jar!/org/eclipse/milo/opcua/sdk/server/nodes/UaNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="400" column="27" selection-start-line="400" selection-start-column="27" selection-end-line="400" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/stack-core/0.2.4/69a782baead2a808675ab28089847647675f723f/stack-core-0.2.4-sources.jar!/org/eclipse/milo/opcua/stack/core/types/builtin/Variant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/stack-core/0.2.4/69a782baead2a808675ab28089847647675f723f/stack-core-0.2.4-sources.jar!/org/eclipse/milo/opcua/stack/core/types/builtin/DataValue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-          <folding>
-            <element signature="e#1355#1356#0" expanded="true" />
-            <element signature="e#1399#1400#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/sdk-server/0.2.4/ffa216ffaea92beb077f85b4c66b8dd3a316c11d/sdk-server-0.2.4-sources.jar!/org/eclipse/milo/opcua/sdk/server/namespaces/VendorNamespace.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/sdk-server/0.2.4/ffa216ffaea92beb077f85b4c66b8dd3a316c11d/sdk-server-0.2.4-sources.jar!/org/eclipse/milo/opcua/sdk/server/nodes/UaNode.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/stack-core/0.2.4/69a782baead2a808675ab28089847647675f723f/stack-core-0.2.4-sources.jar!/org/eclipse/milo/opcua/stack/core/types/builtin/Variant.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/stack-core/0.2.4/69a782baead2a808675ab28089847647675f723f/stack-core-0.2.4-sources.jar!/org/eclipse/milo/opcua/stack/core/types/builtin/DataValue.java" />
     <entry file="file://$PROJECT_DIR$/server/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -765,27 +641,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/stack-client/0.2.4/cbd03c5071c1c192da320913912207ce954a5178/stack-client-0.2.4-sources.jar!/org/eclipse/milo/opcua/stack/client/UaTcpStackClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="565" column="59" selection-start-line="565" selection-start-column="59" selection-end-line="565" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/sdk-client/0.2.4/fede836bc9cc89854c169139b6807cf9767a9e4f/sdk-client-0.2.4-sources.jar!/org/eclipse/milo/opcua/sdk/client/OpcUaClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1594">
-          <caret line="310" column="39" selection-start-line="310" selection-start-column="39" selection-end-line="310" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/stack-core/0.2.4/69a782baead2a808675ab28089847647675f723f/stack-core-0.2.4-sources.jar!/org/eclipse/milo/opcua/stack/core/types/structured/EndpointDescription.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="56" column="39" selection-start-line="56" selection-start-column="39" selection-end-line="56" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/stack-client/0.2.4/cbd03c5071c1c192da320913912207ce954a5178/stack-client-0.2.4-sources.jar!/org/eclipse/milo/opcua/stack/client/UaTcpStackClient.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/sdk-client/0.2.4/fede836bc9cc89854c169139b6807cf9767a9e4f/sdk-client-0.2.4-sources.jar!/org/eclipse/milo/opcua/sdk/client/OpcUaClient.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/stack-core/0.2.4/69a782baead2a808675ab28089847647675f723f/stack-core-0.2.4-sources.jar!/org/eclipse/milo/opcua/stack/core/types/structured/EndpointDescription.java" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/2.1.6.RELEASE/b351c79404e096cc28d45f8395f53cc856989098/spring-boot-2.1.6.RELEASE-sources.jar!/org/springframework/boot/SpringApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
@@ -793,42 +651,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/stack-core/0.2.4/69a782baead2a808675ab28089847647675f723f/stack-core-0.2.4-sources.jar!/org/eclipse/milo/opcua/stack/core/types/builtin/unsigned/Unsigned.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="134" column="28" selection-start-line="134" selection-start-column="28" selection-end-line="134" selection-end-column="28" />
-          <folding>
-            <element signature="e#4440#4441#0" expanded="true" />
-            <element signature="e#4486#4487#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/stack-core/0.2.4/69a782baead2a808675ab28089847647675f723f/stack-core-0.2.4-sources.jar!/org/eclipse/milo/opcua/stack/core/types/builtin/unsigned/UInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="191" column="27" selection-start-line="191" selection-start-column="27" selection-end-line="191" selection-end-column="27" />
-          <folding>
-            <element signature="e#6052#6053#0" expanded="true" />
-            <element signature="e#6110#6111#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/sdk-client/0.2.4/fede836bc9cc89854c169139b6807cf9767a9e4f/sdk-client-0.2.4-sources.jar!/org/eclipse/milo/opcua/sdk/client/api/services/ViewServices.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="62" column="44" selection-start-line="62" selection-start-column="44" selection-end-line="62" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/stack-core/0.2.4/69a782baead2a808675ab28089847647675f723f/stack-core-0.2.4-sources.jar!/org/eclipse/milo/opcua/stack/core/types/structured/BrowseResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="58" column="14" lean-forward="true" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/stack-core/0.2.4/69a782baead2a808675ab28089847647675f723f/stack-core-0.2.4-sources.jar!/org/eclipse/milo/opcua/stack/core/types/builtin/unsigned/Unsigned.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/stack-core/0.2.4/69a782baead2a808675ab28089847647675f723f/stack-core-0.2.4-sources.jar!/org/eclipse/milo/opcua/stack/core/types/builtin/unsigned/UInteger.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/sdk-client/0.2.4/fede836bc9cc89854c169139b6807cf9767a9e4f/sdk-client-0.2.4-sources.jar!/org/eclipse/milo/opcua/sdk/client/api/services/ViewServices.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/stack-core/0.2.4/69a782baead2a808675ab28089847647675f723f/stack-core-0.2.4-sources.jar!/org/eclipse/milo/opcua/stack/core/types/structured/BrowseResult.java" />
     <entry file="file://$PROJECT_DIR$/client/src/main/java/com/valcom/opcua/client/UnknownNodeIdException.java" />
     <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/lang/String.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -852,108 +678,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/stack-core/0.2.4/69a782baead2a808675ab28089847647675f723f/stack-core-0.2.4-sources.jar!/org/eclipse/milo/opcua/stack/core/types/builtin/QualifiedName.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/sdk-core/0.2.4/16b49a87bbceafb9af617ff1e4a2c3755005e6c2/sdk-core-0.2.4-sources.jar!/org/eclipse/milo/opcua/sdk/core/ValueRanks.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/stack-core/0.2.4/69a782baead2a808675ab28089847647675f723f/stack-core-0.2.4-sources.jar!/org/eclipse/milo/opcua/stack/core/types/structured/ReadValueId.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/stack-core/0.2.4/69a782baead2a808675ab28089847647675f723f/stack-core-0.2.4-sources.jar!/org/eclipse/milo/opcua/stack/core/Identifiers.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/sdk-client/0.2.4/fede836bc9cc89854c169139b6807cf9767a9e4f/sdk-client-0.2.4-sources.jar!/org/eclipse/milo/opcua/sdk/client/api/services/AttributeServices.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/sdk-server/0.2.4/ffa216ffaea92beb077f85b4c66b8dd3a316c11d/sdk-server-0.2.4-sources.jar!/org/eclipse/milo/opcua/sdk/server/nodes/UaVariableNode.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/stack-core/0.2.4/69a782baead2a808675ab28089847647675f723f/stack-core-0.2.4-sources.jar!/org/eclipse/milo/opcua/stack/core/types/builtin/DateTime.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/stack-core/0.2.4/69a782baead2a808675ab28089847647675f723f/stack-core-0.2.4-sources.jar!/org/eclipse/milo/opcua/stack/core/types/builtin/QualifiedName.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/stack-core/0.2.4/69a782baead2a808675ab28089847647675f723f/stack-core-0.2.4-sources.jar!/org/eclipse/milo/opcua/stack/core/types/builtin/NodeId.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/stack-core/0.2.4/69a782baead2a808675ab28089847647675f723f/stack-core-0.2.4-sources.jar!/org/eclipse/milo/opcua/stack/core/serialization/OpcUaBinaryStreamEncoder.java" />
+    <entry file="file://$PROJECT_DIR$/server/src/main/resources/static/text.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="70000" selection-start-column="70000" selection-end-column="70000" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/valcom/opcua/server/server/Server.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/sdk-core/0.2.4/16b49a87bbceafb9af617ff1e4a2c3755005e6c2/sdk-core-0.2.4-sources.jar!/org/eclipse/milo/opcua/sdk/core/ValueRanks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/stack-core/0.2.4/69a782baead2a808675ab28089847647675f723f/stack-core-0.2.4-sources.jar!/org/eclipse/milo/opcua/stack/core/Identifiers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="35" column="39" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="39" />
-          <folding>
-            <element signature="e#524871#524872#0" expanded="true" />
-            <element signature="e#524946#524947#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/stack-core/0.2.4/69a782baead2a808675ab28089847647675f723f/stack-core-0.2.4-sources.jar!/org/eclipse/milo/opcua/stack/core/types/builtin/NodeId.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="89" column="11" selection-start-line="89" selection-start-column="11" selection-end-line="89" selection-end-column="11" />
-          <folding>
-            <element signature="e#2794#2795#0" expanded="true" />
-            <element signature="e#2850#2851#0" expanded="true" />
-            <element signature="e#5879#5880#0" expanded="true" />
-            <element signature="e#5912#5913#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/sdk-client/0.2.4/fede836bc9cc89854c169139b6807cf9767a9e4f/sdk-client-0.2.4-sources.jar!/org/eclipse/milo/opcua/sdk/client/api/services/AttributeServices.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="55" column="36" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/sdk-server/0.2.4/ffa216ffaea92beb077f85b4c66b8dd3a316c11d/sdk-server-0.2.4-sources.jar!/org/eclipse/milo/opcua/sdk/server/nodes/UaVariableNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="84" column="52" selection-start-line="84" selection-start-column="52" selection-end-line="84" selection-end-column="52" />
-          <folding>
-            <element signature="e#6155#6156#0" expanded="true" />
-            <element signature="e#6186#6187#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/stack-core/0.2.4/69a782baead2a808675ab28089847647675f723f/stack-core-0.2.4-sources.jar!/org/eclipse/milo/opcua/stack/core/types/builtin/DateTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
-          <folding>
-            <element signature="e#940#941#0" expanded="true" />
-            <element signature="e#999#1000#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/stack-core/0.2.4/69a782baead2a808675ab28089847647675f723f/stack-core-0.2.4-sources.jar!/org/eclipse/milo/opcua/stack/core/types/structured/ReadValueId.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/valcom/opcua/server/ServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/valcom/opcua/client/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/valcom/opcua/client/ClientApplication.java">
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/lang/Float.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-267">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        <state relative-caret-position="135">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/valcom/opcua/server/server/Server.java">
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/valcom/opcua/server/ServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+        <state relative-caret-position="105">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/sdk-server/0.2.4/b0efa0cd19b43fa2842960199a988b063b889e31/sdk-server-0.2.4.jar!/org/eclipse/milo/opcua/sdk/server/nodes/UaVariableNode.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/valcom/opcua/client/ClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="47" column="41" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/stack-core/0.2.4/4648c4db15d2e2e1a224067de7c138f36b0a510c/stack-core-0.2.4.jar!/org/eclipse/milo/opcua/stack/core/types/builtin/Variant.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.milo/stack-core/0.2.4/4648c4db15d2e2e1a224067de7c138f36b0a510c/stack-core-0.2.4.jar!/org/eclipse/milo/opcua/stack/core/types/builtin/DataValue.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+          <folding>
+            <element signature="e#988#989#0" expanded="true" />
+            <element signature="e#1032#1033#0" expanded="true" />
+            <element signature="e#1090#1091#0" expanded="true" />
+            <element signature="e#1141#1142#0" expanded="true" />
+            <element signature="e#1224#1225#0" expanded="true" />
+            <element signature="e#1271#1272#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/valcom/opcua/client/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="110" selection-start-line="41" selection-start-column="110" selection-end-line="41" selection-end-column="110" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -962,8 +773,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/src/main/java/com/valcom/opcua/server/server/Namespace.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1383">
-          <caret line="139" selection-start-line="139" selection-end-line="146" selection-end-column="25" />
+        <state relative-caret-position="241">
+          <caret line="129" column="69" selection-start-line="129" selection-start-column="69" selection-end-line="129" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

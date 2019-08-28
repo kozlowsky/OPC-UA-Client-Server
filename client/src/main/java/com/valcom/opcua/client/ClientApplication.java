@@ -43,9 +43,9 @@ public class ClientApplication implements CommandLineRunner {
         }
 
         try {
-            client.write(searchedNodeId, new int[]
+            client.write(searchedNodeId, new Float[]
                     {
-                            1,2,3,4,5,6,7,8,9,10
+                            Float.NaN, Float.NEGATIVE_INFINITY, Float.POSITIVE_INFINITY, Float.MAX_VALUE, Float.MIN_NORMAL
                     });
             LOGGER.info("StatusCode ");
         } catch (InterruptedException | ExecutionException e) {
